@@ -19,12 +19,12 @@
             }
 
             .era-of-radio-radio-element {
-                padding: 8px 5px;
+                padding: 5px 5px;
                 background: aliceblue;
                 border: 1px solid darkgray;
                 border-radius: 5px;
                 vertical-align: middle;
-                display: inline;
+                display: inherit;
             }
             `;
       const styleSheet = document.createElement("style");
