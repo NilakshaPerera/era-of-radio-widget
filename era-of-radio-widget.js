@@ -26,6 +26,13 @@
                 vertical-align: middle;
                 display: inherit;
             }
+            
+            @media (max-width: 768px) {
+              .era-of-radio-radio-element {
+                padding-top: 1px !important;
+                padding-bottom: 1px !important;
+              }
+            }
             `;
       const styleSheet = document.createElement("style");
       styleSheet.type = "text/css";
